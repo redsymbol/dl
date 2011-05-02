@@ -21,3 +21,9 @@ primary command (e.g., "less", "xpdf" or "emacs" in the examples
 above) will fail gracefully enough if this happens.
 
 dl is in the public domain.  If it breaks, you get to keep both pieces.
+
+INSTALL
+
+Just save the file dl.sh as "dl", somewhere in your $PATH.  (It has
+the .sh extension here to keep github from being confused about the
+file type.)  Make sure that it has the execute bit set (chmod +x dl).
