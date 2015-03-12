@@ -31,7 +31,7 @@ if [ -z "$url" ]; then
     echo "usage: dl URL"
     exit 1
 fi
-bucket=$(mktemp -d -t)
+bucket=$(mktemp -d -t tmp.XXXXXXXXXX)
 dest="$bucket/object" 
 wget -q -O "$dest" "$url"
 wget_ec=$? 
